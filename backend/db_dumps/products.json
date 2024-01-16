@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "658d63f2fcf6f8c1fc092cdb"
+  },
+  "title": "Iphone 15 128Gb",
+  "price": 50000
+},
+{
+  "_id": {
+    "$oid": "658d6b56fcf6f8c1fc092ce6"
+  },
+  "title": "Iphone 15 256Gb",
+  "price": 70000
+},
+{
+  "_id": {
+    "$oid": "658d7adcfcf6f8c1fc092ce9"
+  },
+  "title": "Iphone 15 512Gb",
+  "price": 90000
+}]

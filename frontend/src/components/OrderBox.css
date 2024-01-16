@@ -1,0 +1,36 @@
+.OrderBox {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+}
+
+.OrderBox h1 {
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+
+.OrderBox input {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.OrderBox button {
+    height: 30px;
+    width: auto;
+    border-radius: 10px;
+    font-size: 12pt;
+    background-color: #bbb;
+    border-style: none;
+    cursor: pointer;
+}
+
+.OrderBox button:hover {
+    background-color: #71db2a;
+}
+
+.OrderBox #orderError {
+    color: red;
+    margin-top: 10px;
+}
