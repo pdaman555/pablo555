@@ -18,7 +18,7 @@ function UserBox({ setModalBox, token, setToken, setPage }) {
 
       return (
         <div className="UserBox">
-          <p>{login}, вы на сайте!</p>
+          <p className='label'>{login}, вы на сайте!</p>
           <button onClick={() => setPage('Cabinet')}>личный кабинет</button>
           <button onClick={() => logout()}>выйти</button>
         </div>

@@ -66,17 +66,16 @@ function Cabinet({ token }) {
                 document.getElementById('passMessage').innerText = result.message
             })
     }
-
-
     return (
         <div className="Cabinet">
-            <h1>Личный кабинет</h1>
-            <p id='showEmail'>Ваш текущий email: {jwtDecode(token).email}</p>
+            <h1>Личный кабинет пользователя</h1>
+            <p id='showEmail'>Ваш email: {jwtDecode(token).email}</p>
             <input id='email' placeholder=' email' type='email' />
-            <button id='sendEmail' onClick={changeEmail}>cменить email</button>
+            <button id='sendEmail' onClick={changeEmail}>изменить email</button>
             <p id='emailMessage'></p>
+            <p> Ваш пароль: скрыт для безопасности </p>
             <input id='pass' placeholder=' пароль' type='password' />
-            <button id='sendPass' onClick={changePass}>cменить пароль</button>
+            <button id='sendPass' onClick={changePass}>изменить пароль</button>
             <p id='passMessage'></p>
         </div>
     );

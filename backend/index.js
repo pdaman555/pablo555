@@ -52,7 +52,7 @@ app.post('/registration', async (req, res) => {
     }
 
     res.json({
-        message: 'Вы успешно зарегистрировались!'
+        message: 'Вы зарегистрировались на сайте!'
     })
 })
 
@@ -81,7 +81,7 @@ app.post('/login', async (req, res) => {
     const jwtToken = generateAccessToken(user._id, user.login, user.email)
 
     res.json({
-        message: 'Вы успешно вошли на сайт!',
+        message: 'Вы вошли на сайт!',
         token: jwtToken
     })
 })
@@ -154,7 +154,7 @@ app.post('/user/changeEmail', async (req, res) => {
     }
 
     res.json({
-        message: 'email изменён, авторизуйтесь заново!',
+        message: 'email изменился!, авторизуйтесь заново',
         newEmail: user.email
     })
 })
@@ -206,7 +206,7 @@ app.post('/products/add', async (req, res) => {
     }
 
     res.json({
-        message: 'Товар успешно добавлен, обновите страницу.'
+        message: 'Товар добавлен, обновите страницу'
     })
 })
 

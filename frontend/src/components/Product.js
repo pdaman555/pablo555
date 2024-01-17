@@ -23,7 +23,7 @@ function Product({ id, image, title, price, setBasket, setBasketPrice, setBasket
     }
 
     setTimeout(() => {
-      setMessage('Товар добавлен в корзину.')
+      setMessage('Вы добавили товар в корзину')
       setModalBox('MessageBox')
     }, 100)
   }
