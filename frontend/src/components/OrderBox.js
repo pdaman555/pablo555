@@ -32,7 +32,7 @@ function OrderBox({ setModalBox, setMessage, setBasket, setBasketQty, setBasketP
             <input id='cardNum' placeholder='номер карты' type='text' />
             <input id='cardExp' placeholder='срок действия' type='text' />
             <input id='cvc' placeholder='CVC-код' type='text' />
-            <button id='send' onClick={() => order()}> подтвердить заказ</button>
+            <button id='send' onClick={() => order()}> подтвердите </button>
             <p id='orderError'></p>
         </div>
     );
